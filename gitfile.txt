@@ -1,0 +1,7 @@
+git init //used to create a new git repo
+
+git remote add origin <linK>
+git remote -v
+git branch
+git branch -m main
+git push origin main
