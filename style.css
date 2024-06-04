@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+
+}
+*{
+    padding:10px;
+    transition: 0.5s;
+    user-select: none;
+
+}
+
+
+.todolist h1 img{
+    width:6%;
+    padding:0;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    background-color: transparent;
+    margin-top:10px;
+    width:70%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    
+}
+.todolist{
+    margin:auto;
+    margin-top:160px;
+    width:600px;
+    background-color:orangered;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#inputtextvalue{
+    width:85%;
+    border-radius: 4px;
+    box-shadow: none;
+    border:none;
+    outline:none;
+    height:30px;
+}
+#submittask{
+    border: none;
+    outline:none;
+    border-radius: 200%;
+    width:50px;
+    height:50px;
+    font-weight: bolder;
+    
+    margin-left:10px;
+}
+.taskslist{
+    background-color: white;
+    border-radius: 10px;
+    width:94%;
+    margin:auto;
+}
+.taskslist ul {
+    padding:0;
+    list-style: none;
+    margin:0;
+    border-radius: 8px;   
+
+}
+.taskslist ul li{
+    background-color: white;
+    border:3px green solid;
+    color:green;
+    border-radius: 8px;
+    padding-left:40px;
+    height:30px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    cursor:pointer;
+    font-size:larger;
+}
+.taskslist ul li span{
+    background-color: orangered;
+    color:white;
+    border-radius: 24px;
+    position: absolute;
+    right:520px;
+    font-size:large;
+    height:10px;
+    line-height: 10px;
+    margin-top:0;
+}
+ul li.check{
+    text-decoration: line-through;
+    color:white;
+    background-color: green;
+    
+}
+ul li.check span{
+    background-color: white;
+    color:green;
+
+}
